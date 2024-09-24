@@ -17,22 +17,22 @@ export default function App() {
       <div>
         <Banner></Banner>
       </div>
-      <div className='mt-3 xl:flex xl:w-11/12 xl:justify-center xl:items-center xl:mt-8'>
+      <div className='mt-3 xl:flex xl:w-11/12 xl:justify-center xl:items-center xl:mt-8 xl:ml-9'>
         <div className=' flex justify-center h-full'>
           <CardFirstSetion
-            text={"Years of Expirience"}
+            text={"Anos de Expêriencia"}
             number={2}
             image={image1}></CardFirstSetion>
         </div>
         <div className=' flex justify-center h-1/2 xl:ml-2'>
           <CardFirstSetion
-            text={"Years of Expirience"}
-            number={2}
+            text={"Resolução de Problemas"}
+   
             image={image2}></CardFirstSetion>
         </div>
         <div className=' flex justify-center h-1/2 xl:ml-2'>
           <CardFirstSetion
-            text={"Years of Expirience"}
+            text={"Pensamento Critico"}
             number={2}
             image={image3}></CardFirstSetion>
         </div>
@@ -40,7 +40,7 @@ export default function App() {
       <div className='flex justify-center xl:mt-20'>
         <div className='w-10/12 xl:flex xl:flex-col xl:w-7/12'>
           <h1 className='text-otherColor font-bold text-2xl mt-3'>
-            Service
+            Serviços
           </h1>
           <div className='xl:flex xl:justify-between xl:items-center  '>
             <div className='xl:'>
@@ -49,7 +49,7 @@ export default function App() {
                 number={"01"}
                 icon={dev}
                 skill={"Web Developement"}
-                text={" Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit consectetur hic unde ad nisi esse. Deleniti dolo"} />
+                text={" Criação de websites e aplicações web sob medida, garantindo a melhor experiência para o usuário, é essencial no desenvolvimento moderno. "} />
             </div>
             <div className='xl:ml-2'>
 
@@ -57,7 +57,7 @@ export default function App() {
                 number={"02"}
                 icon={dev}
                 skill={"UI/ UX Design"}
-                text={" Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit consectetur hic unde ad nisi esse. Deleniti dolo"} />
+                text={"Os serviços de UI/UX Design garantem interfaces visuais atraentes (UI) e uma navegação intuitiva e eficiente (UX). Focamos em entender os usuários."} />
             </div>
           </div>
         </div>
@@ -69,8 +69,8 @@ export default function App() {
           <ResumeSetion />
         </div>
       </div>
-      <div className='flex justify-center'>
-        <div className='w-10/12 xl:  xl:w-8/12 xl:flex xl:justify-center'>
+      <div className='flex justify-center  xl:ml-5'>
+        <div className='w-10/12 xl:  xl:w-8/12 xl:flex xl:justify-start xl:ml-36'>
           <ContactForm></ContactForm>
         </div>
       </div>

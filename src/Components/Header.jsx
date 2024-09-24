@@ -25,20 +25,20 @@ export default function Header() {
                     <div className=' flex justify-end  w-full xl:hidden'>
                         <Menu size={40} style={{ display: menu }} onClick={MenuState}  />
                         <X size={40} style={{ display: close }} onClick={MenuClose}/>
-                        <button className="bg-otherColor p-2 rounded-full ml-2">Contacte-me</button>
+                        <button className="bg-otherColor p-2 rounded-full ml-2"> <a href="#contacto">Contacte-me</a></button>
                     </div>
                     <div className=' hidden  w-1/2 xl:block '>
-                        <button className="bg-otherColor p-2 rounded-full ml-2 ">Contacte-me</button>
+                        <button className="bg-otherColor p-2 rounded-full ml-2 "><a href="#contacto">Contacte-me</a></button>
                     </div>
                     <ul className="hidden absolute top-20 left-0 w-full p-4 bg-otherColor" style={{display:itemsmenu, backgroundColor:"", transition:"ease-in"}}>
-                        <li className='border-b p-2'> <a href="">Home</a></li>
-                        <li className='border-b p-2'><a href="">Services</a></li>
-                        <li className='border-b p-2'><a href="">work</a></li>
+                        <li className='border-b p-2'> <a href="#home">Pagina Inicial</a></li>
+                        <li className='border-b p-2'><a href="#service">Serviços</a></li>
+                        <li className='border-b p-2'><a href="#work">Projectos</a></li>
                     </ul>
                     <ul className=" hidden xl:block xl:flex" >
-                        <li className=' p-2  text-xl font-semibold'> <a href="">Home</a></li>
-                        <li className=' p-2  text-xl font-semibold'><a href="">Services</a></li>
-                        <li className=' p-2  text-xl font-semibold'><a href="">work</a></li>
+                        <li className=' p-2  text-xl font-semibold'> <a href="#home">Home</a></li>
+                        <li className=' p-2  text-xl font-semibold'><a href="#service">Serviços</a></li>
+                        <li className=' p-2  text-xl font-semibold'><a href="#work">Projectos</a></li>
                     </ul>
           
                 </nav>
