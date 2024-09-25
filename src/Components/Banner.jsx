@@ -26,7 +26,7 @@ export default function Banner() {
                 </div>
             </div>
             <div className='flex justify-center items-center mt-4 xl:flex xl:justify-start xl:w-7/12 '>
-               <a href={cvp}>  <button className=' flex border-otherColor border p-3 rounded-full text-otherColor'>download cv  <CircleArrowDown className='ml-3'/></button></a>
+               <a href={cv}>  <button className=' flex border-otherColor border p-3 rounded-full text-otherColor'>download cv  <CircleArrowDown className='ml-3'/></button></a>
                  <div className='flex justify-center items-center'>
                   <a href="https://github.com/DanielMuacatundaSamassumba"> <Github size={40} className='text-otherColor ml-2'/></a>
                  <a href="https://www.youtube.com/@SamasTech">    <Youtube size={40} className='text-otherColor ml-2'/></a>
