@@ -10,6 +10,7 @@ import tailwind from "./../assets/Skills/taiwidcsss-removebg-preview.png"
 import figma from "./../assets/Skills/figma.png"
 import mysql from './../assets/Skills/mysql.png'
 import LpginProject from './../assets/Projects/LoginPage.png'
+import wordpressIcon from './../assets/Skills/pngtree-wordpress-psd-icons-files-download-image_149410.jpg'
 import projct2 from './../assets/Projects/Captura de Ecrã (12).png'
 import projct3 from './../assets/Projects/Captura de Ecrã (16).png'
 import projct4 from './../assets/Projects/Captura de Ecrã (17).png'
@@ -18,6 +19,12 @@ import projct6 from './../assets/Projects/Capturar3.png'
 import projct7 from './../assets/Projects/1710690073412.jfif'
 import projct8 from './../assets/Projects/1710690073881.jfif'
 import projct9 from './../assets/Projects/1710690073895.jfif'
+import projct10 from './../assets/Projects/hyacent.png'
+import projct11 from './../assets/Projects/hycent01.png'
+import projct12 from './../assets/Projects/safeCar.png'
+import projct13 from './../assets/Projects/safeCar02.png'
+import projct14 from './../assets/Projects/smartEnergy.png'
+import projct15 from './../assets/Projects/SmartEnergy01.png'
 export default function ResumeSetion() {
   const [experience, setExperience] = useState("none")
   const [skills, setSkills] = useState("none")
@@ -34,7 +41,7 @@ export default function ResumeSetion() {
     {
       id: 5,
       image: LpginProject,
-      title: "Figma ",
+      title: "Sistem de Gestão Financeira Pessoal ",
       desc: "Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to",
       stacks: "ReactJs, Typescript, Tailwind Css, Mysql, Node JS",
             link:"https://github.com/DanielMuacatundaSamassumba/Maneger_Financial"
@@ -42,7 +49,7 @@ export default function ResumeSetion() {
     {
       id: 6,
       image: projct6,
-      title: "Figma ",
+      title: "Sistem de Gestão Financeira Pessoal  ",
       desc: "Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to",
       stacks: "ReactJs, Typescript, Tailwind Css, Mysql, Node JS",
             link:"https://github.com/DanielMuacatundaSamassumba/Maneger_Financial"
@@ -50,7 +57,7 @@ export default function ResumeSetion() {
     {
       id: 7,
       image: projct5,
-      title: "Figma ",
+      title: "Sistem da Gestão Financeira Pessoal  ",
       desc: "Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to",
       stacks: "ReactJs, Typescript, Tailwind Css, Mysql, Node JS",
             link:"https://github.com/DanielMuacatundaSamassumba/Maneger_Financial"
@@ -58,7 +65,7 @@ export default function ResumeSetion() {
     {
       id: 8,
       image: projct7,
-      title: "Figma ",
+      title: "Sistema de Gestão de um centro de Formação   ",
       desc: "Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to",
       stacks: "HTML 5, CSS3, JS, PHP, MYSQL",
             link:"https://github.com/DanielMuacatundaSamassumba/System_Center"
@@ -66,7 +73,7 @@ export default function ResumeSetion() {
     {
       id: 9,
       image: projct9,
-      title: "Figma ",
+      title: "Sistema de Gestão de um centro de Formação  ",
       desc: "Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to",
       stacks: "HTML 5, CSS3, JS, PHP, MYSQL",
             link:"https://github.com/DanielMuacatundaSamassumba/System_Center"
@@ -74,10 +81,53 @@ export default function ResumeSetion() {
     {
       id: 10,
       image: projct8,
-      title: "Figma ",
+      title: "Sistema de Gestão de um centro de Formação  ",
       desc: "Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to",
       stacks: "HTML 5, CSS3, JS, PHP, MYSQL",
             link:"https://github.com/DanielMuacatundaSamassumba/System_Center"
+    },
+ 
+    {
+      id: 11,
+      image: projct10,
+      title: "Website de uma empresa de Logistica",
+      desc: "Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to",
+      stacks: "WordPress",
+            link:"https://hyacent.wilmadigital.com/"
+    },
+ 
+    {
+      id: 12,
+      image: projct11,
+      title: "Website de uma empresa de Logistica",
+      desc: "Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to",
+      stacks: "WordPress",
+            link:"https://hyacent.wilmadigital.com/"
+    },
+ 
+    {
+      id: 13,
+      image: projct12,
+      title: "Website de uma empresa de Rent a Car",
+      desc: "Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to",
+      stacks: "WordPress",
+            link:"https://safetripangola.ao/"
+    },
+    {
+      id: 14,
+      image: projct14,
+      title: "E-comecerce de Venda de Materias eletricos",
+      desc: "Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to",
+      stacks: "WordPress",
+            link:"https://smartenergy.wilmadigital.com/"
+    },
+    {
+      id: 14,
+      image: projct15,
+      title: "E-comecerce de Venda de Materias eletricos",
+      desc: "Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to",
+      stacks: "WordPress",
+            link:"https://smartenergy.wilmadigital.com/"
     },
  
   ])
@@ -221,12 +271,14 @@ export default function ResumeSetion() {
                 </div>
                 <div className="bg-secondColor flex justify-center items-center p-3 xl:w-9/12" >
                   <div className="ml-8">
-                    <img src={mysql} alt="" className="w-1/4" />
+                    <img src={mysql} alt="" className="w-1/2" />
                   </div>
 
-
+                  <div className="ml-8">
+                    <img src={wordpressIcon} alt="" className="w-1/2 rounded" />
+                  </div>
                 </div>
-
+             
                 <div>
 
                 </div>
@@ -253,7 +305,7 @@ export default function ResumeSetion() {
                         <p className="mt-2"> {item.desc} </p>
                         <p className="text-otherColor font-semibold">{item.stacks}</p>
                         <div className="border-t border-b-neutral-400 border-1  border-dashed mt-2">
-                        <a href={item.link}>  <Github size={40} className="mt-2 text-otherColor" cursor={"pointer"} /></a>
+                        <a href={item.link} className="text-otherColor flex flex-row items-center">  <Github size={40} className="mt-2 inline  text-otherColor" cursor={"pointer"} /> <p>Ver o Projecto</p></a>
                         </div>
                       </div>
                     </div>
